@@ -1,0 +1,20 @@
+.gridbook {
+    display: grid;
+    grid-template-columns: 366px 366px 366px;
+    grid-column-gap: 20px;
+}
+.bookbutton {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 48px;
+}
+button {
+    height: 45px;
+    margin-right: 10px;
+}
+.bookh {
+    margin-top: 9px;
+}
+.book {
+    background-color: #c9cab9;
+}

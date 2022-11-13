@@ -1,0 +1,22 @@
+   
+h1 {
+    margin: 0px;
+    font-size: 96px;
+}
+h2 {
+    font-family: 120;
+    font-weight: lighter;
+}
+.home {
+    background-image: url(/images/горы1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    width: 100%; 
+    height: 100%;
+    padding-top: 80px;
+}

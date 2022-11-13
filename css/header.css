@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+.contaner {
+    margin-left: 385px;
+    margin-right: 385px;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    height: 80px;
+    margin-top: 0px;
+}
+
+.logo{
+    display: flex;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    font-style: italic;
+    font-size: 21px;
+}
+
+.menu {
+    display: flex;
+    position:absolute; left: 1310px;
+    margin-top: 24px;
+    margin-bottom: 22px;
+}
+a {
+    width: 70px;
+}
