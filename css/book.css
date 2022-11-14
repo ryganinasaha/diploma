@@ -16,5 +16,9 @@ button {
     margin-top: 9px;
 }
 .book {
-    background-color: #c9cab9;
+    background-color: #dbd8ca;
+}
+.bookimag {
+    height: 400px;
+    width: 336px;
 }
