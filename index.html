@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/hystmodal.min.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/fotter.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/book.css">
+    <link rel="stylesheet" href="css/more.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="contaner header">
-            <div class="logo">Logo</div>
+            <img class="logo" src="./images/default-logo.png" alt=""></img>
             <div class="menu">
                 <a>Главная</a>
                 <a>О нас</a>
@@ -23,48 +27,137 @@
     </header>
     <div class="home">
         <div class="contaner">
-            <h1>горы</h1>
-            <h2>завут и я должен идти</h2> 
+            <h1 class="homeh1">горы</h1>
+            <h2>ЗАВУТ И Я ДОЛЖЕН ИДТИ</h2> 
         </div>
     </div>
     <div class="book">
         <div class="gridbook contaner">
-            <div class="mountains">
-                <img src="./images/лес.jpg" alt="" class="bookimag">
-                <h2>Путешествие по горам</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit, voluptates qui deleniti deserunt non cupiditate ipsa debitis dolore. Beatae!</p>
+            <div class="mountains gitf">
+                <img src="./images/1.jpg" alt="" class="bookimag">
+                <h2>ПУТЕШЕСТВИЕ ПО ГОРАМ</h2>
+                <p class="bookp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit, voluptates qui deleniti deserunt non cupiditate ipsa debitis dolore. Beatae!</p>
                 <div class="bookbutton">
-                    <h2 class="bookh">$600</h2>
-                    <button>Закзать сейчас</button>
+                    <h2 class="bookh"><strong>$600</strong></h2>
+                    <button class="bookb" data-hystmodal="#myModal">Заказать сейчас</button>
                 </div>
             </div>
-            <div class="surf">
-                <img src="./images/лес.jpg" alt="" class="bookimag">
-                <h2>Сёрфинг путешествие </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit, voluptates qui deleniti deserunt non cupiditate ipsa debitis dolore. Beatae!</p>
+            <div class="surf gitf">
+                <img src="./images/2.jpg" alt="" class="bookimag">
+                <h2>СЕРФИНГ ПУТЕШЕСТВИЯ </h2>
+                <p class="bookp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit, voluptates qui deleniti deserunt non cupiditate ipsa debitis dolore. Beatae!</p>
                 <div class="bookbutton">
-                    <h2 class="bookh">$800</h2>
-                    <button>Закзать сейчас</button>
+                    <h2 class="bookh"><strong>$800</strong></h2>
+                    <button class="bookb" data-hystmodal="#myModal">Заказать сейчас</button>
                 </div>
             </div>
-            <div class="oseon">
-                <img src="./images/лес.jpg" alt="" class="bookimag">
-                <h2>Путешествие по океану</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit, voluptates qui deleniti deserunt non cupiditate ipsa debitis dolore. Beatae!</p>
+            <div class="oseon gitf">
+                <img src="./images/3.jpg" alt="" class="bookimag">
+                <h2>ПУТЕШЕСТВИЕ ПО ОКЕАНУ</h2>
+                <p class="bookp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit, voluptates qui deleniti deserunt non cupiditate ipsa debitis dolore. Beatae!</p>
                 <div class="bookbutton">
-                    <h2 class="bookh">$700</h2>
-                    <button>Закзать сейчас</button>
+                    <h2 class="bookh"><strong>$700</strong></h2>
+                    <button class="bookb" data-hystmodal="#myModal">Заказать сейчас</button>
                 </div>
             </div>
         </div>
 
     </div>
+    <div class="more">
+        <div class="contaner">
+            <h1 class="moreh1">
+                <strong>Взбирайтесь на гору не для того, чтобы водрузить свой флаг</strong>
+            </h1>
+            <div class="moregrid">
+                <div class="morecontent">
+                    <img src="./images/pexels-photo-3972205.jpeg" class="moreimg">
+                    <div class="moretext">
+                        <h4>ГОРНЫЙ ТУР</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit praesentium, voluptates vel voluptatibus fugiat esse deserunt ipsa tempore doloremque provident eum! Rem vero magni voluptatum in nesciunt assumenda dolorum!</p>
+                        <button class="moreb"><strong>Узнать больше</strong></button>
+                    </div>
+                </div>
+                <div class="morecontent">
+                    <img src="./images/pexelsphoto3978928.jpeg" class="moreimg">
+                    <div class="moretext">
+                        <h4>ПОДНЯТЬСЯ НА ГОРУ</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit praesentium, voluptates vel voluptatibus fugiat esse deserunt ipsa tempore doloremque provident eum! Rem vero magni voluptatum in nesciunt assumenda dolorum!</p>
+                        <button class="moreb"><strong>Узнать больше</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team">
+        <div class="contaner">
+            <h1 class="tearh1">Познакомьтесь с нашей командой путешествий</h1>
+            <div class="teamgit">
+                <div>
+                    <img src="./images/pexels-photo-3979473.jpeg" class="teamimg">
+                    <h6><strong>менеджер</strong></h6>
+                    <h2>ЛИНДА СКАВО</h2>
+                </div>
+                <div>
+                    <img src="./images/pexels-photo-3979473.jpeg" class="teamimg">
+                    <h6><strong>менеджер</strong></h6>
+                    <h2>ЛИНДА СКАВО</h2>
+                </div>
+                <div>
+                    <img src="./images/pexels-photo-3979473.jpeg" class="teamimg">
+                    <h6><strong>менеджер</strong></h6>
+                    <h2>ЛИНДА СКАВО</h2>
+                </div>
+                <div>
+                    <img src="./images/pexels-photo-3979473.jpeg" class="teamimg">
+                    <h6><strong>менеджер</strong></h6>
+                    <h2>ЛИНДА СКАВО</h2>
+                </div>
+                <div>
+                    <img src="./images/pexels-photo-3979473.jpeg" class="teamimg">
+                    <h6><strong>менеджер</strong></h6>
+                    <h2>ЛИНДА СКАВО</h2>
+                </div>
+                <div>
+                    <img src="./images/pexels-photo-3979473.jpeg" class="teamimg">
+                    <h6><strong>менеджер</strong></h6>
+                    <h2>ЛИНДА СКАВО</h2>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
+    <div class="hystmodal" id="myModal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <h2 class="formh2">ЗАКАЗАТЬ</h2>
+                
+                <form>
+                    <label>Имя:</label>
+                    <input type="text" name="name">
+                </form>
+                <form>
+                    <label>Количество челоывек:</label>
+                    <input type="number" name="number">
+                </form>
+                <form>
+                    <label>Дата:</label>
+                    <input type="text" name="date">
+                </form>
+                <form>
+                    <label>Телефон:</label>
+                    <input type="text" name="foun">
+                </form>
+                
+                <button data-hystclose class="formb">Отправить</button>
+            </div>
+        </div>
+    </div>
 
 
 
 
+    <script src="lib/hystmodal.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

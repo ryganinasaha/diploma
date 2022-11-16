@@ -1,0 +1,17 @@
+.tearh1 {
+    font-size: 3.75rem;
+    margin-top: 64px;
+}
+.teamgit {
+    display: grid;
+    grid-template-columns: 373px 373px 373px;
+}
+.teamimg {
+    height: 235px;
+    width: 100%;
+}
+h6 {
+    font-size: 1.125rem;
+    line-height: 1.2;
+    margin-top: 0px;
+}

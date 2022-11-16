@@ -4,10 +4,10 @@ body {
 .contaner {
     margin-left: 385px;
     margin-right: 385px;
+    width: 1140px;
 }
 
 .header {
-    position: fixed;
     display: flex;
     height: 80px;
     margin-top: 0px;
@@ -15,16 +15,15 @@ body {
 
 .logo{
     display: flex;
-    font-weight: bold;
-    margin-top: 15px;
+    width: 64px;
+    height: 32px;
+    margin-top: 24px;
     margin-bottom: 22px;
-    font-style: italic;
-    font-size: 21px;
 }
 
 .menu {
     display: flex;
-    position:absolute; left: 1310px;
+    position:absolute; left: 1270px;
     margin-top: 24px;
     margin-bottom: 22px;
 }

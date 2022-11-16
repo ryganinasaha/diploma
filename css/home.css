@@ -1,22 +1,19 @@
    
-h1 {
+.homeh1 {
     margin: 0px;
     font-size: 96px;
+    margin-top: 50px;
 }
 h2 {
     font-family: 120;
     font-weight: lighter;
 }
 .home {
-    background-image: url("./images/prxelsphoto3978928.jpeg");
+    background-image: url("../images/pexelsphoto3978928.jpeg");
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover; 
     width: 100%; 
-    height: 100%;
-    padding-top: 80px;
+    height: 796px;
 }
+

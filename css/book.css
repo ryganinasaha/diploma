@@ -2,15 +2,18 @@
     display: grid;
     grid-template-columns: 366px 366px 366px;
     grid-column-gap: 20px;
+    padding-top: 50px;
 }
 .bookbutton {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     height: 48px;
 }
 button {
     height: 45px;
     margin-right: 10px;
+    background-color: black;
+    color: white;
 }
 .bookh {
     margin-top: 9px;
@@ -19,6 +22,12 @@ button {
     background-color: #dbd8ca;
 }
 .bookimag {
-    height: 400px;
-    width: 336px;
+    height: 347px;
+    width: 326px;
+}
+.bookb {
+    font-size: 17px;
+}
+.gitf {
+    padding: 20px;
 }
