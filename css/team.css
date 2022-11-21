@@ -2,7 +2,7 @@
     font-size: 3.75rem;
     margin-top: 64px;
 }
-.teamgit {
+.teamgrit {
     display: grid;
     grid-template-columns: 373px 373px 373px;
 }
@@ -14,4 +14,10 @@ h6 {
     font-size: 1.125rem;
     line-height: 1.2;
     margin-top: 0px;
+}
+.gritblok {
+    padding: 30px;
+}
+.team {
+    background: linear-gradient(to right,  #dbd8ca 30%, #e0e5eb 10%, #e0e5eb 70%, #dbd8ca 70% );
 }
