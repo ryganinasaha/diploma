@@ -30,3 +30,6 @@ body {
 a {
     width: 70px;
 }
+img {
+    object-fit: cover;
+}
