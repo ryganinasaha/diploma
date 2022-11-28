@@ -1,0 +1,14 @@
+footer {
+    height: 165px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.footerp {
+    width: 417px;
+    margin-top: 0px;
+    padding-top: 49px;
+    margin-bottom: 49px;
+    margin-left: auto;
+    margin-right: auto;
+}

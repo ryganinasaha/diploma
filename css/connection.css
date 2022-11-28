@@ -1,0 +1,27 @@
+.connection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 660px;
+}
+.connectimg {
+    width: 100%;
+    height: 660px;
+}
+.form {
+    padding: 30px 30px 30px 80px;
+}
+.formdiv, input, textarea {
+    width: 98%;
+    padding: 10px;
+}
+.formh2 {
+    font-weight: 900;
+    font-size: 3.5rem;
+    margin-top: 0px;
+}
+textarea {
+    height: 130px;
+}
+.connect {
+    padding: 10px;
+}
