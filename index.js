@@ -24,3 +24,14 @@ const myModal = new HystModal({
     linkAttributeName: "data-hystmodal",
     // настройки (не обязательно), см. API
 });
+
+
+const more1 = new HystModal({
+    linkAttributeName: "data-hystmodal",
+    // настройки (не обязательно), см. API
+});
+
+const more2 = new HystModal({
+    linkAttributeName: "data-hystmodal",
+    // настройки (не обязательно), см. API
+});

@@ -77,7 +77,7 @@
                     <div class="moretext">
                         <h4>ГОРНЫЙ ТУР</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit praesentium, voluptates vel voluptatibus fugiat esse deserunt ipsa tempore doloremque provident eum! Rem vero magni voluptatum in nesciunt assumenda dolorum!</p>
-                        <button class="moreb"><strong>Узнать больше</strong></button>
+                        <button class="moreb1" data-hystmodal="#more1"><strong>Узнать больше</strong></button>
                     </div>
                 </div>
                 <div class="morecontent">
@@ -85,7 +85,7 @@
                     <div class="moretext">
                         <h4>ПОДНЯТЬСЯ НА ГОРУ</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit praesentium, voluptates vel voluptatibus fugiat esse deserunt ipsa tempore doloremque provident eum! Rem vero magni voluptatum in nesciunt assumenda dolorum!</p>
-                        <button class="moreb"><strong>Узнать больше</strong></button>
+                        <button class="moreb2" data-hystmodal="#more2"><strong>Узнать больше</strong></button>
                     </div>
                 </div>
             </div>
@@ -138,7 +138,7 @@
             <div class="innovationt">
                 <h2 class="innovh2">Инновации происходят лучше всего, когда мы все вместе!</h2>
                 <p class="innovp">Start a journey with us. Reinvent who you are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button>Узнать больше</button>
+                <button class="button2 lernmore">Узнать больше</button>
             </div>
             <div>
                 <div class="icons">
@@ -166,16 +166,16 @@
             <p>Образец текста. Щелкните, чтобы выделить текстовое поле. Щелкните еще раз или дважды щелкните, чтобы начать редактирование текста.</p>
             <form>
                 <div class="formdiv">
-                    <input placeholder="Entor your Name" type="text">
+                    <input placeholder="Entor your Name" type="text" class="nameh">
                 </div>
                 <div class="formdiv">
-                    <input placeholder="Entor a valid email address" type="text">
+                    <input placeholder="Entor a valid email address" type="text" class="emailh">
                 </div>
                 <div class="formdiv">
-                    <textarea></textarea>
+                    <textarea placeholder="Entor your massaeg" class="text"></textarea>
                 </div>
                 <div class="connect">
-                    <button class="connectb">Отправить</button>
+                    <button class="connectb button2">Отправить</button>
                 </div>
                 
             </form>  
@@ -201,19 +201,23 @@
                 
                 <form>
                     <label>Имя:</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" class="person">
+                </form>
+                <form>
+                    <label>Email:</label>
+                    <input type="text" name="email" class="email"> 
                 </form>
                 <form>
                     <label>Кол-во челоывек:</label>
-                    <input type="number" name="number">
+                    <input type="number" name="number" class="number">
                 </form>
                 <form>
                     <label>Дата:</label>
-                    <input type="text" name="date">
+                    <input type="text" name="date" class="date">
                 </form>
                 <form>
                     <label>Телефон:</label>
-                    <input type="text" name="foun">
+                    <input type="text" name="foun" class="foun">
                 </form>
                 
                 <button data-hystclose class="formb">Отправить</button>
@@ -223,8 +227,34 @@
     
 
 
+    <div class="hystmodal" id="more1" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <h2>ГОРНЫЙ ТУР</h2>
+                <div>
+                    <img src="./images/pexels-photo-3972205.jpeg" class="moreimg">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius cum aut possimus perferendis sit numquam atque magnam eligendi quia, ea soluta alias a qui provident eveniet, molestias odit dicta voluptatum doloribus repellat aspernatur voluptatem quod! Itaque eum debitis ratione iure? Voluptas quibusdam, tempore quam officia repellendus omnis maiores minima tempora minus ratione consequatur, eos natus labore dolores! Esse, dolore quo eum neque rerum est quisquam corrupti. Deleniti, iure blanditiis facere neque officiis, dolores, possimus vitae eveniet corporis nulla voluptates animi! Non, voluptate! Nobis, nihil vel voluptate inventore dolorum blanditiis ut cupiditate illum id, obcaecati possimus error quia alias itaque saepe.</p>
+                </div>
+                <button data-hystclose class="formb">Закрыть</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="hystmodal" id="more2" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <h2></h2>
+                <button data-hystclose class="formb">Закрыть</button>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="lib/hystmodal.min.js"></script>
     <script src="index.js"></script>
+    <script src="conect.js"></script>
 </body>
 </html>
