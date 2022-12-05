@@ -6,8 +6,8 @@ const date = document.querySelector(".date")
 const foun = document.querySelector(".foun")
 const button = document.querySelector(".formb")
 
-button.addEventListener("click", async () => {
-
+button.addEventListener("click", async (event) => {
+  event.preventDefault()
   
     const url = "https://my-first-web-server.onrender.com/send-order";
     const res = await fetch(url, {

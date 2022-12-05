@@ -14,3 +14,7 @@ form {
 .formc {
     width: 300px;
 }
+.formh {
+    font-weight: 800;
+    text-align: center;
+}
