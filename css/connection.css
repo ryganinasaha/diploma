@@ -1,17 +1,17 @@
 .connection {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 660px;
+    min-height: 660px;
 }
 .connectimg {
     width: 100%;
-    height: 660px;
+    height: 700px;
 }
 .form {
     padding: 30px 30px 30px 80px;
 }
 .formdiv, input, textarea {
-    width: 98%;
+    width: 97%;
     padding: 10px;
 }
 .formh2 {

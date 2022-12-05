@@ -23,9 +23,11 @@ body {
 
 .menu {
     display: flex;
-    position:absolute; left: 1270px;
+    position:absolute; left: 1370px;
     margin-top: 24px;
     margin-bottom: 22px;
+    color: gray;
+    
 }
 a {
     width: 70px;

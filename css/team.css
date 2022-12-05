@@ -21,3 +21,6 @@ h6 {
 .team {
     background: linear-gradient(to right,  #dbd8ca 36.5%, #e0e5eb 15%, #e0e5eb 68%, #dbd8ca 65% );
 }
+.person {
+    font-size: 1.25rem;
+}

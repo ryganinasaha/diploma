@@ -23,8 +23,9 @@
 }
 h4 {
     margin-top: 0px;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
+    font-weight: 300;
 }
 .moreb {
     width: 100%;
