@@ -5,7 +5,7 @@
 }
 .moregrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 570px 570px;
 }
 .moreimg {
     width: 285px;
@@ -29,4 +29,12 @@ h4 {
 }
 .moreb {
     width: 100%;
+}
+.moreb1, .moreb2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+.morecont {
+    max-width: 1100px;
 }

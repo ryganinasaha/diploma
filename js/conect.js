@@ -1,10 +1,10 @@
 
-const person = document.querySelector(".person")
-const email = document.querySelector(".email")
-const number = document.querySelector(".number")
-const date = document.querySelector(".date")
-const foun = document.querySelector(".foun")
-const button = document.querySelector(".formb")
+const person = document.querySelector("#myModal .person")
+const email = document.querySelector("#myModal .email")
+const number = document.querySelector("#myModal .number")
+const date = document.querySelector("#myModal .date")
+const foun = document.querySelector("#myModal .foun")
+const button = document.querySelector("#myModal .formb")
 
 button.addEventListener("click", async (event) => {
   event.preventDefault()

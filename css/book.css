@@ -3,6 +3,7 @@
     grid-template-columns: 366px 366px 366px;
     grid-column-gap: 20px;
     padding-top: 50px;
+    justify-content: center; 
 }
 .bookbutton {
     display: grid;
@@ -26,7 +27,10 @@ button {
     width: 326px;
 }
 .bookb {
-    font-size: 17px;
+    font-size: 1rem;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 .gitf {
     padding: 20px;

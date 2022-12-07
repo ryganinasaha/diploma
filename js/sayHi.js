@@ -1,10 +1,11 @@
+;(() => {
 
-const email = document.querySelector(".emailh")
-const nam = document.querySelector(".nameh")
-const text = document.querySelector(".text")
-const button = document.querySelector(".connectb")
+  const email = document.querySelector(".emailh")
+  const nam = document.querySelector(".nameh")
+  const text = document.querySelector(".text")
+  const button = document.querySelector(".connectb")
 
-button.addEventListener("click", async (event) => {
+  button.addEventListener("click", async (event) => {
   event.preventDefault()
   
     const url = "https://my-first-web-server.onrender.com/send-hi";
@@ -22,3 +23,4 @@ button.addEventListener("click", async (event) => {
   
     console.log(res);
   });
+})()
