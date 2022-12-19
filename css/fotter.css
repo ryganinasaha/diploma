@@ -1,13 +1,13 @@
 footer {
-    height: 165px;
+    height: 80px;
     background-color: black;
     text-align: center;
     color: white;
 }
 .footerp {
-    width: 417px;
+    width: 317px;
     margin-top: 0px;
-    padding-top: 49px;
+    padding-top: 30px;
     margin-bottom: 49px;
     margin-left: auto;
     margin-right: auto;
